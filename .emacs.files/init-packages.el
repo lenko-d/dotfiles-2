@@ -56,6 +56,10 @@
         markdown-mode
         yaml-mode
         json-mode
+	
+	
+	shell-switcher
+	ace-isearch
 ))
 
 ;; Fetch the list of packages available.
