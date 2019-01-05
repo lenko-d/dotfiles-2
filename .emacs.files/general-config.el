@@ -218,3 +218,12 @@
 ;;; ielm config. ;;;
 (define-key comint-mode-map (kbd "<up>") 'comint-previous-input)
 (define-key comint-mode-map (kbd "<down>") 'comint-next-input)
+
+
+
+(global-set-key (kbd "C-x m") 'helm-recentf)
+(global-set-key (kbd "C-h SPC") 'helm-all-mark-rings)
+(global-set-key (kbd "C-c i b") 'helm-browse-project)
+(global-set-key (kbd "C-x e") 'helm-grep-do-git-grep)
+(global-set-key (kbd "C-x l") 'helm-ls-git-ls)
+(global-set-key (kbd "C-c i c") 'compilation-mode)
